@@ -1,0 +1,106 @@
+body {
+  background-image: url(imgs/img-home.jpg);
+  background-size: cover;
+}
+
+.nav {
+  background-color: transparent !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form {
+  margin-top: 200px;
+}
+.jor {
+  align-items: center;
+}
+.j4 {
+  width: 30%;
+  color: #282c34;
+}
+.tag {
+  color: #282c34;
+}
+.shoes {
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+.div1 {
+  align-items: center;
+  justify-content: space-around;
+}
+.button {
+  margin-top: 150px;
+}
+.form {
+  align-items: center;
+}
+.fig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+#start {
+  align-content: center;
+}
+
+.fig img {
+  object-fit: cover;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.modall {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.466);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modall-content {
+  width: 80%;
+  height: 400px;
+  background-color: white;
+}
